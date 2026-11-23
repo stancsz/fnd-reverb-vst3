@@ -36,7 +36,7 @@ Prerequisites: CMake 3.15 or newer and a C++17 compiler. CMake fetches JUCE 8.0.
 
 The VST3 and standalone outputs are under the FDNR_artefacts directory; the exact configuration subdirectory depends on the CMake generator. In a DAW, install the VST3 bundle in a scanned VST3 directory and rescan plugins.
 
-Linux builds additionally require ALSA and GTK 3 development packages. The repository has not published cross-platform compatibility evidence in this draft.
+Linux builds additionally require ALSA and GTK 3 development packages. The repository has not published cross-platform compatibility evidence.
 
 ## References
 
