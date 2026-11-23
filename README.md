@@ -2,7 +2,7 @@
 
 # FND Reverb
 
-[Unpublished research draft (PDF)](paper/main.pdf) · [LaTeX source](paper/main.tex) · [Product and research values](#product-and-research-values)
+[Product and research values](#product-and-research-values)
 
 **A VST3 and standalone reverb effect by Stancsz Audio**
 
@@ -37,10 +37,6 @@ Prerequisites: CMake 3.15 or newer and a C++17 compiler. CMake fetches JUCE 8.0.
 The VST3 and standalone outputs are under the FDNR_artefacts directory; the exact configuration subdirectory depends on the CMake generator. In a DAW, install the VST3 bundle in a scanned VST3 directory and rescan plugins.
 
 Linux builds additionally require ALSA and GTK 3 development packages. The repository has not published cross-platform compatibility evidence in this draft.
-
-## Research draft
-
-The [unpublished research draft (PDF)](paper/main.pdf) and [LaTeX source](paper/main.tex) describe the implementation and propose acoustic and listening evaluations. They report no such evaluation. The draft has not been submitted to arXiv and has no arXiv identifier.
 
 ## References
 
